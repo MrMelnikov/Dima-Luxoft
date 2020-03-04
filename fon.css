@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+}
+*{
+	font-family: 'Lato', sans-serif;
+}
+.dima-main{
+	height: 88vh;
+	background-image: url(https://image.freepik.com/free-photo/_8353-6963.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+.dima1{
+	height: 88vh;
+	background-color: #00c8ff22;
+}
+.dima2{
+	height: 44vh;
+	padding-top: 150px;
+}
+.dima3{
+	cursor: default;
+	text-align: center;
+	font-size: 95px;
+	color: #ffffff;
+	clear: both;
+}
+.dima4{
+	width: 36vw;
+	height: 10vh;
+	border-top: 4px solid #0084ff;
+	margin: auto;
+	margin-top: 20px;
+	padding: 40px 10px 0 10px;
+	cursor: default;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+}
+.dima-button-block{
+	width: 100vw;
+}
+.dima-button {
+	background-color: #0084ff;
+	border: none;
+  	color: white;
+ 	padding: 16px 32px;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.dima-button1 {
+    background-image: none; 
+	background: transparent;
+	background-color: transparent;; 
+    color: white; 
+    border: 2px solid #0084ff;
+}
+.dima-button1:hover {
+    background-color: #0084ff;
+    color: black;
+}
+.dima5{
+	width: 100vw;
+}
+.dima6{
+	width: 70px;
+	height: 30px;
+	position: relative; 
+	left: 50%;
+	transform: translate(-50%, 0); /* в совокупности с пердыдущими 2 строчками перемещает блок на центр */
+	padding-top: 220px;
+	cursor: pointer;
+	filter: invert(1); /* меняет цвет изображения на белый */
+}
